@@ -1,5 +1,8 @@
 # CSS-B.E.M._and_SASS_Opdrachten
 
+Dit was een eindopdracht voor Advanced CSS. waarbij ik 3 opdrachten moest maken waarbij ik Block Element Modifier en SASS moest gebruiken. 
+Dit was de opdracht:
+
 Eindopdracht: Advanced CSS
 Hallo daar CSS-guru-in-wording 
 
