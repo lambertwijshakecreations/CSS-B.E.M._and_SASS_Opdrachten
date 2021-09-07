@@ -1,0 +1,154 @@
+/*kleuren Opdracht1*/
+button {
+  cursor: pointer;
+}
+
+footer {
+  margin: auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__btn {
+  padding: 20px;
+  margin: 20px;
+}
+
+.main__btn:hover {
+  background: darkcyan;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.main__btn a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #c3cfe2;
+}
+
+* {
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  margin-top: 150px;
+}
+
+nav li {
+  height: 55px;
+  position: relative;
+}
+
+nav li a {
+  font-size: 1.2em;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  padding-left: 30px;
+}
+
+nav li a span {
+  padding-left: 30px;
+}
+
+nav li:nth-child(1) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #e17b77;
+}
+
+nav li:nth-child(1):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav li:nth-child(2) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #3b5998;
+}
+
+nav li:nth-child(2):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav li:nth-child(3) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #00aced;
+}
+
+nav li:nth-child(3):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav li:nth-child(4) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #007bb6;
+}
+
+nav li:nth-child(4):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav li:nth-child(5) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #333;
+}
+
+nav li:nth-child(5):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav li:nth-child(6) {
+  -webkit-transform: translateX(230px);
+          transform: translateX(230px);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: yellowgreen;
+}
+
+nav li:nth-child(6):hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=opdracht3.css.map */

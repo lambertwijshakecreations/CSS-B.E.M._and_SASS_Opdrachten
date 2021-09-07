@@ -1,0 +1,92 @@
+@import "./variables";
+@mixin transform {
+  transform: translateX(230px);
+  transition: all 0.3s linear;
+}
+
+body {
+  background-color: $algemeen;
+}
+
+* {
+  // margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  margin-top: 150px;
+  & li {
+    height: 55px;
+    position: relative;
+    & a {
+      font-size: 1.2em;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      line-height: 60px;
+      padding-left: 30px;
+      & span {
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+nav li:nth-child(1) {
+  @include transform();
+  background: #e17b77;
+}
+
+nav li:nth-child(1):hover {
+  transform: translateX(0);
+}
+
+nav li:nth-child(2) {
+  @include transform();
+  background: #3b5998;
+}
+
+nav li:nth-child(2):hover {
+  transform: translateX(0);
+}
+
+nav li:nth-child(3) {
+  @include transform();
+  background: #00aced;
+}
+
+nav li:nth-child(3):hover {
+  transform: translateX(0);
+}
+
+nav li:nth-child(4) {
+  @include transform();
+  background: #007bb6;
+}
+
+nav li:nth-child(4):hover {
+  transform: translateX(0);
+}
+
+nav li:nth-child(5) {
+  @include transform();
+  background: #333;
+}
+
+nav li:nth-child(5):hover {
+  transform: translateX(0);
+}
+
+nav li:nth-child(6) {
+  @include transform();
+  background: yellowgreen;
+}
+
+nav li:nth-child(6):hover {
+  transform: translateX(0);
+}

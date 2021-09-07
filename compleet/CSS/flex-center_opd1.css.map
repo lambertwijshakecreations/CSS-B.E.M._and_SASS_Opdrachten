@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "flex-center_opd1.scss"
+    ],
+    "names": [],
+    "file": "flex-center_opd1.css"
+}
